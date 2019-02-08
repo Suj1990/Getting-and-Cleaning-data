@@ -1,0 +1,11 @@
+Code book
+
+The data set used for the analysis, “Human Activity Recognition Using Smartphones Data Set”.
+The data set is about information of a group of who performed six activities (walking, walking_upstairs, walking downstairs, sitting, standing, laying) wearing a smartphone (Samsung Galaxy S II) on the waist.
+It has been captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
+The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
+Data set was first loaded to the R from the same given name in the data file. 
+Then created a vector of mean and std dev and stored a subset in another vector
+Data set was cleaned by removing the "()" at the end.  
+Then combined test and train data set.
+Finally out put of tidy data was created
